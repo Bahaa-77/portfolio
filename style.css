@@ -551,3 +551,23 @@ body{
         width:100%;
     }
 }
+
+#success-message{
+
+    display:none;
+
+    background:#d4edda;
+
+    color:#155724;
+
+    padding:18px 25px;
+
+    margin-bottom:30px;
+
+    border-radius:6px;
+
+    font-weight:600;
+
+    border:1px solid #c3e6cb;
+
+}
