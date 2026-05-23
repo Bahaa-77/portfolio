@@ -63,9 +63,31 @@ h1 span, h2 span { color: var(--brand); }
 .hero-card { position: relative; min-height: 430px; display: grid; place-items: center; }
 .profile-orbit { position: absolute; width: 360px; height: 360px; border-radius: 50%; border: 1px solid var(--line); animation: spin 16s linear infinite; }
 .profile-orbit::before { content: ''; position: absolute; top: 25px; left: 45px; width: 18px; height: 18px; background: var(--brand); border-radius: 50%; box-shadow: 0 0 40px var(--brand); }
-.profile-card { width: min(350px, 100%); padding: 34px; border-radius: 34px; background: linear-gradient(145deg, rgba(255,255,255,.14), rgba(255,255,255,.05)); border: 1px solid var(--line); text-align: center; box-shadow: var(--shadow); }
-.profile-card h3 { font-size: 1.35rem; }
-.profile-card p { color: var(--muted); margin-bottom: 20px; }
+.profile-card{
+    width: 420px;
+    padding: 40px 30px;
+    border-radius: 30px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,.12),
+        rgba(255,255,255,.04)
+    );
+
+    border: 1px solid rgba(255,255,255,.1);
+
+    text-align: center;
+
+    box-shadow:
+        0 0 40px rgba(0,0,0,.25),
+        0 0 80px rgba(0,195,255,.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
 .tag-cloud { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .tag-cloud span, .cert-strip span { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.05); font-size: .86rem; }
 .split { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; align-items: start; }
