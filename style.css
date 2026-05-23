@@ -624,7 +624,7 @@ body{
 
 .about-card:hover,
 .skill-card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-12px) scale(1.02);
     box-shadow:0 35px 90px rgba(0,0,0,0.13);
 }
 
@@ -707,4 +707,15 @@ body{
     .about-header h2{
         font-size:34px;
     }
+}
+
+.big-card{
+    grid-column:span 2;
+}
+.skill-card:hover i{
+    transform:rotate(-8deg) scale(1.1);
+}
+
+.skill-card i{
+    transition:0.35s;
 }
