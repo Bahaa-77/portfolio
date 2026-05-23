@@ -174,19 +174,24 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <form class="contact-form"
 action="https://formsubmit.co/bahaaboghdady1357@gmail.com"
 method="POST">
+<input type="hidden" name="_next" value="https://bahaa-77.github.io/portfolio/">
 
     <div class="input-row">
 
         <div class="input-box">
             <i class="fa-regular fa-user"></i>
 
-            <input type="text" name="name" placeholder="Your Name *">
+            <input type="text"
+            name="name"
+            placeholder="Your Name *"
+            required>
+            
         </div>
 
         <div class="input-box">
             <i class="fa-regular fa-envelope"></i>
 
-            <input type="email" name="email" placeholder="Your Email *">
+            <input type="email" name="email" placeholder="Your Email *" required>
         </div>
 
     </div>
@@ -211,7 +216,7 @@ method="POST">
 
         <i class="fa-solid fa-pen"></i>
 
-        <textarea name="message" placeholder="Message *"></textarea>
+        <textarea name="message" placeholder="Message *" required> </textarea>
 
     </div>
 
