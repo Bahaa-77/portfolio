@@ -118,16 +118,17 @@ h1 span, h2 span { color: var(--brand); }
 }
 
 .avatar{
-    width: 220px;
-    height: 220px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid rgba(255,255,255,0.15);
-    box-shadow: 0 0 30px rgba(0, 195, 255, 0.25);
+    position: relative;
+    border: 4px solid rgba(135,206,235,0.3);
+    box-shadow: 0 0 40px rgba(0,195,255,0.25);
 }
 
 .profile-img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
