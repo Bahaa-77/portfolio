@@ -38,3 +38,11 @@ function typeEffect() {
 }
 
 typeEffect();
+
+const urlParams = new URLSearchParams(window.location.search);
+
+if(urlParams.get('success') === 'true'){
+
+    document.getElementById('success-message').style.display = 'block';
+
+}
